@@ -11,8 +11,18 @@
 <body>
 <div class="flex-container">
     <div class="content-container">
-        <div class="title">
-            <h1>PDF Checker</h1>
+        <div class="top-container">
+            <div class="title">
+                <h1>PDF Checker</h1>
+            </div>
+            <div class="nb-warning">
+                <h3 style="color: red">NB! Værktøjet tjekker kun:</h3>
+                <ul>
+                    <li>at filen er gemt korrekt</li>
+                    <li>at overstregninger er permanente (gemt som billede, jf. anonymiserings-vejledningen)</li>
+                </ul>
+                <p>Det er fortsat brugerens eget ansvar at sikre, at overstregning er foretaget alle relevante steder i dokumentet</p>
+            </div>
         </div>
         <form class="form-container" id="upload-form" action="/check-pdf" method="post" enctype="multipart/form-data">
 

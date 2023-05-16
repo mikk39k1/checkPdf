@@ -16,10 +16,12 @@ body {
 }
 
 .content-container {
-    height: 50%;
+    height: auto;
     width: 40%;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #cecece;
     border-radius: 10px;
+    box-shadow: 9px 10px 5px -2px rgba(212,212,212,0.75);
+    padding: 40px;
 }
 
 .form-container {
@@ -62,6 +64,33 @@ body {
 .p-text {
     font-size: 24px;
     margin: 0;
+}
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nb-warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #B9B9B9FF;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#status-message {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#status-message1 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
